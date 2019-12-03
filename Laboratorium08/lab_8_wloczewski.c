@@ -17,7 +17,8 @@ main() {
 		}
 		if (liczba1 == 0 && licznikPetli1 == 1) {
 			printf("W ciagu nie podano zadnej wartosci\n");
-			break;
+			licznikPetli1 = 0;
+			continue;
 		}
 		else if (liczba1 == 0) {
 			printf("Najmniejsza wartosc w podanyc ciagu to: %d\n", rekord1);
